@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="calculator">
 		<b-container>
 			<b-row>
 				<b-col></b-col>
@@ -95,3 +95,9 @@
     }
   }
 </script>
+
+<style>
+#calculator {
+  margin-top: 20px;
+}
+</style>
