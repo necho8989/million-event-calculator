@@ -6,6 +6,7 @@
 				<b-col cols="10">
 					<b-card header="前提条件">
 						<b-card-text>前半は通常楽曲のみ、後半はイベ楽曲のみを消化する想定です</b-card-text>
+						<b-card-text>通常楽曲はお仕事でチケ300貯め⇒通常楽曲MM1回プレイというフローのみの想定です</b-card-text>
 						<b-card-text>イベ楽曲は後半戦のMMのみで走る想定です</b-card-text>
 						<b-card-text>1楽曲プレイにかかる想定時間は一律3分で計算しています</b-card-text>
 						<b-card-text>通常楽曲で獲得するイベントPtは除外しているため、必要な石数やかかる時間は結果よりも少なくなります</b-card-text>
@@ -27,7 +28,7 @@
 									<b-col cols="6">{{ requiredEventItem }}</b-col>
 								</b-row>
 								<b-row>
-									<b-col>通常楽曲プレイに必要な石：</b-col>
+									<b-col>通常楽曲1回プレイに必要な石：</b-col>
 									<b-col cols="6">{{ requiredJwelPerNormalSong }}</b-col>
 								</b-row>
 								<b-row>
