@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 		<b-navbar type="dark" variant="info">
-			<b-navbar-brand>PSTイベ計算機</b-navbar-brand>
+			<b-navbar-brand>プラチナスターシアターイベ計算機</b-navbar-brand>
 		</b-navbar>
     <Calculator />
   </div>
